@@ -11,6 +11,8 @@ const Search = ({
   
 }) => {
   console.log('child');
+
+  const a='ci cd'
   return (
     <>
       <div>
