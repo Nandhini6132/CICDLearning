@@ -21,7 +21,7 @@ const Search = ({
           onChange={(e) => {
             const value=e.target.value
             setSearch(value)
-          //  handleSearchDebouce(value)
+         
            }}
           
         />
