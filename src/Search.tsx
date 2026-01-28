@@ -4,7 +4,6 @@ const Search = ({
   setSearch,
   handleSearch,
   search,
-  handleSearchDebouce
 }: {
   search: string;
   setSearch: React.Dispatch<React.SetStateAction<string>>;
@@ -22,7 +21,7 @@ const Search = ({
           onChange={(e) => {
             const value=e.target.value
             setSearch(value)
-          //  handleSearchDebouce(value)
+         
            }}
           
         />
