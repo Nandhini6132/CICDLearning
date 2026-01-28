@@ -25,7 +25,7 @@ const Search = ({
            }}
           
         />
-        <button onClick={handleSearch}>search</button>
+        <button onClick={handleSearch}>Search user by name</button>
       </div>{' '}
       <br /> <br />
     </>
