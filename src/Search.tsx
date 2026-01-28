@@ -4,7 +4,6 @@ const Search = ({
   setSearch,
   handleSearch,
   search,
-  handleSearchDebouce
 }: {
   search: string;
   setSearch: React.Dispatch<React.SetStateAction<string>>;
